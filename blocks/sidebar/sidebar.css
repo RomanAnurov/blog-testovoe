@@ -1,8 +1,10 @@
 .sidebar {
-  background: rgb(193, 234, 8);
+
   width: 320px;
   grid-column-start: 2;
   grid-row-start: 1;
+  grid-row-end: 3;
+ 
 
 
 }

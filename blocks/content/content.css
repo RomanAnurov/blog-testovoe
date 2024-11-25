@@ -1,6 +1,7 @@
 .content {
   display: grid;
   grid-template-columns: 1fr min-content;
+  justify-content: center;
   max-width: 1920px;
   min-width: 320px;
   padding-left: 260px;

@@ -1,0 +1,6 @@
+.sidebar__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 0;
+}

@@ -1,0 +1,11 @@
+.sidebar__item {
+  list-style-type:none;
+   border-bottom: 1px solid #2F22221A;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+}
+
+.sidebar__item:nth-last-of-type(1) {
+  border-bottom: none;
+
+}

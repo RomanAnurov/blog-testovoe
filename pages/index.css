@@ -27,6 +27,7 @@
 @import url(../blocks/item/_type/item_type_three.css);
 @import url(../blocks/item/_type/item_type_four.css);
 @import url(../blocks/item/_type/item_type_five.css);
+@import url(../blocks/item/_type/item_type_image.css);
 @import url(../blocks/item/__data-wrapper/item__data-wrapper.css);
 @import url(../blocks/item/__category/item__category.css);
 @import url(../blocks/item/__category/_type/item__category_type_card.css);
@@ -41,6 +42,25 @@
 
 /*sidebar*/
 @import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/sidebar/__title/sidebar__title.css);
+@import url(../blocks/sidebar/__items/sidebar__items.css);
+@import url(../blocks/sidebar/__item/sidebar__item.css);
+@import url(../blocks/sidebar/__item-title/sidebar__item-title.css);
+@import url(../blocks/sidebar/__item-data/sidebar__item-data.css);
+@import url(../blocks/sidebar/__container/sidebar__container.css);
+@import url(../blocks/sidebar/__form/sidebar__form.css);
+@import url(../blocks/sidebar/__input/sidebar__input.css);
+@import url(../blocks/sidebar/__button/sidebar__button.css);
+@import url(../blocks/sidebar/__button-icon/sidebar__button-icon.css);
+
+
+
 /*pagination*/
 @import url(../blocks/pagination/pagination.css);
+@import url(../blocks/pagination/__list/pagination__list.css);
+@import url(../blocks/pagination/__links/pagination__links.css);
+@import url(../blocks/pagination/__number/pagination__number.css);
+@import url(../blocks/pagination/__link/pagination__link.css);
+@import url(../blocks/pagination/__link/_active/pagination__link_active.css);
+@import url(../blocks/pagination/__button/pagination__button.css);
 
