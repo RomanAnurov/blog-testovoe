@@ -1,0 +1,8 @@
+.header__banner {
+  background-image: url(../../../images/banerMax.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+
+}

@@ -1,0 +1,13 @@
+.items{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  background-color: #84ee8b;
+  grid-column-end: 2;
+  grid-column-start: 1;
+  /*grid-row-end: 3;
+  grid-row-start: 1;
+  height: 70vh; */
+
+  gap: 40px;
+}

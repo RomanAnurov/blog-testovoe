@@ -1,0 +1,5 @@
+.item_type_one {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  min-height: 400px;
+}

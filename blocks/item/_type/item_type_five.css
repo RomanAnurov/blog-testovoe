@@ -1,0 +1,9 @@
+.item_type_five {
+  padding: 30px 40px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  height: 180px;
+
+}
