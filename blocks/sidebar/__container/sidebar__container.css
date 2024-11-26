@@ -6,3 +6,21 @@
   background: #fff;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 1024px) {
+  .sidebar__container {
+    margin-bottom: 80px;
+
+
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .sidebar__container {
+
+    border-radius: 0px;
+
+
+
+  }
+}

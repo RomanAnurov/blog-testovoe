@@ -1,5 +1,16 @@
 .item_type_one {
   grid-column-start: 1;
   grid-column-end: 3;
-  min-height: 400px;
+  height: 400px;
+}
+
+@media screen and (max-width: 650px) {
+  .item_type_one {
+    max-width: 280px;
+    grid-column-end: 2;
+    height: 350px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+  }
 }

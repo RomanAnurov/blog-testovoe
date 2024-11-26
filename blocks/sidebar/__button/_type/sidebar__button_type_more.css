@@ -1,0 +1,12 @@
+.sidebar__button_type_more {
+  display: none;
+  justify-self: center;
+
+}
+@media screen and (max-width: 650px) {
+  .sidebar__button {
+    display: flex;
+
+
+  }
+}

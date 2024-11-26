@@ -3,4 +3,23 @@
   flex-direction: column;
   justify-content: space-between;
   padding-left: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .sidebar__items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sidebar__items {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 60px;
+  }
 }

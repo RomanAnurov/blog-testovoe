@@ -6,5 +6,20 @@
   /*grid-row-end: 3;
   grid-row-start: 1;
   height: 70vh; */
-  gap: 40px;
+ row-gap: 40px;
+ column-gap: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .items:nth-of-type(2) {
+    display: none;
+
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .items {
+    grid-template-columns: 1fr;
+
+  }
 }

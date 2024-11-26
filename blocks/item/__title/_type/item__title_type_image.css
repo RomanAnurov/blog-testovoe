@@ -5,3 +5,11 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+@media screen and (max-width: 650px) {
+  .item__title_type_image {
+    -webkit-line-clamp: 7;
+
+
+  }
+}

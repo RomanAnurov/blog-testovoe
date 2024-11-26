@@ -3,3 +3,17 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .sidebar__form {
+    flex-direction: row;
+
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sidebar__form {
+    flex-direction: column;
+
+  }
+}

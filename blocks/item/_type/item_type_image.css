@@ -1,5 +1,7 @@
 .item_type_image {
     background-image: url(../../../images/imageTwo.png);
-
+    width: 280px;
+    height: 350px;
 
 }
+

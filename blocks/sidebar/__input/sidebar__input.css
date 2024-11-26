@@ -13,3 +13,21 @@
   width: 260px;
 
 }
+
+@media screen and (max-width: 1024px) {
+  .sidebar__input {
+    margin-bottom: 0px;
+    margin-right: 20px;
+    width: 380px;
+
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sidebar__input {
+    margin-bottom: 21px;
+    margin-right: 0px;
+    width: 280px;
+
+  }
+}

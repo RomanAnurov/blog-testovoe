@@ -1,5 +1,14 @@
 .item__data-wrapper {
   display: flex;
   justify-content: space-between;
-  
+
+}
+
+
+@media screen and (max-width: 650px) {
+  .item__data-wrapper {
+    align-items: center;
+
+
+  }
 }

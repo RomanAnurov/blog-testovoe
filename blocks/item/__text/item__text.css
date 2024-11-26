@@ -6,3 +6,14 @@
   line-height: 1.28;
 
 }
+
+@media screen and (max-width: 650px) {
+  .item__text {
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+  }
+}

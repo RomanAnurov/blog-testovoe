@@ -6,3 +6,17 @@
   color:  #2F2222;
   padding-left: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .sidebar__title {
+    margin-bottom: 20px;
+
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sidebar__title {
+   text-align: center;
+
+  }
+}

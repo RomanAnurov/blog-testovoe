@@ -6,3 +6,17 @@
   object-position: center;
 
 }
+
+@media screen and (max-width: 1024px) {
+  .header__banner {
+    background-image: url(../../../images/banerMedium.png);
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__banner {
+    background-image: url(../../../images/banerMin.png);
+    height: 150px;
+  }
+}

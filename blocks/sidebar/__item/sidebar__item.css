@@ -9,3 +9,10 @@
   border-bottom: none;
 
 }
+
+@media screen and (max-width: 1024px) {
+  .sidebar__item {
+    max-width: 300px;
+    border-bottom: none;
+  }
+}

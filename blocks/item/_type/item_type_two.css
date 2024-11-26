@@ -5,3 +5,26 @@
   grid-column-start: 3;
   grid-column-end: 4;
 }
+
+
+@media screen and (max-width: 1180px) {
+  .item_type_two {
+    max-width: 300px;
+
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .item_type_two {
+    width: 280px;
+    height: 350px;
+    max-width: none;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 40px 20px;
+
+  }
+}
+

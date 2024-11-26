@@ -10,3 +10,10 @@
 
 }
 
+
+@media screen and (max-width: 1024px) {
+  .sidebar__item-title {
+    -webkit-line-clamp: 2;
+
+  }
+}

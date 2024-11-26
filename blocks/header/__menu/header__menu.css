@@ -5,3 +5,32 @@
   padding: 0 260px;
   min-height: 70px;
 }
+
+@media screen and (max-width: 1690px) {
+  .header__menu {
+    padding: 0 160px;
+
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header__menu {
+    padding: 0 100px;
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__menu {
+    padding: 0 42px;
+
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__menu {
+    padding: 0 16px;
+
+  }
+}
+

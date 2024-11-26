@@ -60,7 +60,9 @@
 @import url(../blocks/sidebar/__form/sidebar__form.css);
 @import url(../blocks/sidebar/__input/sidebar__input.css);
 @import url(../blocks/sidebar/__button/sidebar__button.css);
+@import url(../blocks/sidebar/__button/_type/sidebar__button_type_more.css);
 @import url(../blocks/sidebar/__button-icon/sidebar__button-icon.css);
+@import url(../blocks/sidebar/__wrapper/sidebar__wrapper.css);
 
 /*pagination*/
 

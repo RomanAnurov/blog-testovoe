@@ -7,3 +7,23 @@
   grid-row-end: 4;
   height: 400px;
 }
+
+@media screen and (max-width: 1180px) {
+  .item_type_three {
+    max-width: 300px;
+
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .item_type_three {
+    padding: 40px 20px;
+    max-width: 280px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 350px;
+    grid-row-start: 3;
+  grid-row-end: 4;
+
+  }
+}

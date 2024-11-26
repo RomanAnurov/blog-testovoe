@@ -7,3 +7,15 @@
   margin-bottom: 20px;
 
 }
+
+
+@media screen and (max-width: 650px) {
+  .item__title {
+    font-size: 18px;
+    display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  }
+}

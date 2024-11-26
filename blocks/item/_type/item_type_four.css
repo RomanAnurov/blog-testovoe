@@ -6,3 +6,15 @@
   grid-row-end: 3;
   height: 180px;
 }
+
+@media screen and (max-width: 650px) {
+  .item_type_four {
+    max-width: 280px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+  grid-row-end: 5;
+    height: 350px;
+
+  }
+}
