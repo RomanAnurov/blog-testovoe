@@ -7,7 +7,18 @@
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1690px) {
+  .item__text {
+    font-size: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+  }
+}
+
+@media screen and (max-width: 890px) {
   .item__text {
     font-size: 18px;
     display: -webkit-box;
