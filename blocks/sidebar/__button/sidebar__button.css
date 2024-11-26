@@ -13,6 +13,12 @@
    cursor: pointer;
 }
 
+.sidebar__button:hover {
+  background: #1d2d8a;
+  transition: 0.3s opacity;
+
+}
+
 @media screen and (max-width: 1024px) {
   .sidebar__button {
     width: 244px;
@@ -26,3 +32,4 @@
 
   }
 }
+

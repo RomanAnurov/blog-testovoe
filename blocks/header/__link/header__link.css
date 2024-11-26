@@ -6,4 +6,9 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: blue;
+  transition: .4 opacity;
 
+
+}
